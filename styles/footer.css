@@ -1,0 +1,31 @@
+footer {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;    
+    height: 157px;      
+    width: 100%;
+}
+
+.links-row,
+.links-row-last {
+    display: flex;    
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;   
+    width: 100%;
+    margin: 0;
+    padding: 0;   
+}
+
+.links-row-last {
+    margin-top: 14px;
+    padding-bottom: 34px;
+}
+
+.links {   
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+    margin: 3px 8px 3px 8px;
+    cursor: pointer;
+}
